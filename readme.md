@@ -6,27 +6,29 @@
 
 #table columns (pseudo)
 
--brand
--production year
--model
--km traveled
+-id - primary key - auto_increment - NOT NULL
 -?general state (0-10 rating?)
--tipo di cambio
--tipologia alimentazione
--potenza (kw+cv)
--consumi (km/l)
--trazione
 -numero proprietari
--peso
+-km traveled
+-brand
+-model
+-production year
 -cilindrata
--marce
+-potenza (kw+cv)
+-tipo di cambio
+-numero marce
+-trazione
+-peso
 -classe euro
+-tipologia alimentazione
+-consumi (km/l)
+
 
 
 #table columns
 
--
--
--
--
+-id - primary key - auto_increment - NOT NULL
+-general_condition - TINYINT - NOT NULL
+-owners_amount - TINYINT - NOT NULL
+-km - INT - NOT NULL
 -
