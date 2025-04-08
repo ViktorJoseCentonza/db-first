@@ -19,9 +19,9 @@
 -numero marce ✔
 -trazione ✔
 -peso ✔
--classe euro
--tipologia alimentazione
--consumi (km/l)
+-classe euro ✔
+-tipologia alimentazione ✔
+-consumi (km/l) ✔
 
 
 
@@ -36,8 +36,10 @@
 -production year - YEAR
 -displacement - SMALLINT
 -power_hp - SMALLINT
--transmission - VARCHAR(15)
+-transmission - VARCHAR(15) - NOT NULL
 -gears - TINYINT
 -traction - VARCHAR(4)
 -weight - SMALLINT
--EURO - VARCHAR (10)
+-EURO - VARCHAR (10) - NOT NULL
+-fuel_type - VARCHAR(15) - NOT NULL
+-fuel_consumption - DECIMAL(3,1)
