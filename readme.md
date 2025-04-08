@@ -31,15 +31,15 @@
 -general_condition - TINYINT - NOT NULL
 -owners_amount - TINYINT - NOT NULL
 -km - INT - NOT NULL
--brand - VARCHAR(30)
--model - VARCHAR(30)
+-brand - VARCHAR(30) - NULL
+-model - VARCHAR(30) - NULL
 -production year - YEAR
--displacement - SMALLINT
--power_hp - SMALLINT
+-displacement - SMALLINT - NULL
+-power_hp - SMALLINT - NULL
 -transmission - VARCHAR(15) - NOT NULL
--gears - TINYINT
--traction - VARCHAR(4)
--weight - SMALLINT
+-gears - TINYINT - NULL
+-traction - VARCHAR(4) - NULL
+-weight - SMALLINT - NULL
 -EURO - VARCHAR (10) - NOT NULL
 -fuel_type - VARCHAR(15) - NOT NULL
--fuel_consumption - DECIMAL(3,1)
+-fuel_consumption - DECIMAL(3,1) - NULL
